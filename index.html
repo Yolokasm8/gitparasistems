@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Votacion</title>
+	<script src="js_voto.js"></script>
+</head>
+<body>
+	<form id="formularioz">
+		<br></br>
+		<label>Apellido</label>
+		<input name="Apellido" type="text"/><br>
+		<label>Nombre</label>
+		<input name="Nombre" type="text"/><br>
+		<label>¿De qué sección de la ciudad es?</label>
+		<select name="zona">
+			    <option value=""></option>
+				<option value="1">Zona Norte</option>
+				<option value="2">Zona Centro</option>
+				<option value="3">Zona Sur</option>	
+			</select>
+			<input type="button" name="Votar" value="Votar" onclick="sw(this.form);">
+	</form><br>
+	<article id="mensaje"></article>	
+	<div id= "voto"></div>
+</body>
+</html>
